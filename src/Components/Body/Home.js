@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Loading from './Loading';
 
 
 
@@ -10,6 +11,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>I am from Home</h1>
+                <Loading></Loading>
             </div>
         )
     }

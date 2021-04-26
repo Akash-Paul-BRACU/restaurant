@@ -1,94 +1,43 @@
 const dishes = [
     {
-        id: "1",
-        name: "name 1",
-        image: "https://source.unsplash.com/user/erondu/1600x800",
-        category: "category 1",
-        price: 64,
-        description: "description 1",
-        
-
+        id: 0,
+        name: 'Ginger Burger',
+        image: 'assets/images/0burger.jpg',
+        category: 'meal',
+        label: 'Hot',
+        price: '199',
+        featured: true,
+        description: 'This chicken burger gets an Asian-flavor twist with ginger and garlic. It\'s topped off with a fabulous coleslaw. If you like, serve the coleslaw as a side for grilled items, like chicken breasts, fish fillets or chops',
     },
     {
-        id: "2",
-        name: "name 2",
-        image: "https://source.unsplash.com/user/erondu/1600x700",
-        category: "category 2",
-        price: 27,
-        description: "description 2",
-       
+        id: 1,
+        name: 'BBQ Chicken Pizza',
+        image: 'assets/images/1pizza.jpg',
+        category: 'meal',
+        label: '',
+        price: '599',
+        featured: false,
+        description: 'BBQ chicken pizza with tangy BBQ sauce, chicken, and red onion. Gouda cheese gives the homemade pizza the most delicious smoky flavor and cilantro adds a touch of freshness. My pizza dough recipe makes enough for two 12-inch pizzas, so you can freeze half for later. It’s an easy thick-style pizza crust with unbeatable flavor.',
     },
     {
-        id: "3",
-        name: "name 3",
-        image: "https://source.unsplash.com/user/erondu/1600x900",
-        category: "category 3",
-        price: 77,
-        description: "description 3",
-        
+        id: 2,
+        name: 'French Fries',
+        image: 'assets/images/2fries.jpg',
+        category: 'appetizer',
+        label: 'New',
+        price: '120',
+        featured: false,
+        description: 'These are deep-fried, very thin, salted slices of potato that are usually served at room temperature. French fries have numerous variants, from thick-cut to shoestring, crinkle, curly and many other names.',
     },
     {
-        id: "4",
-        name: "name 4",
-        image: "https://source.unsplash.com/user/erondu/1600x600",
-        category: "category 4",
-        price: 7,
-        description: "description 4",
-        
-    },
-    {
-        id: "5",
-        name: "name 5",
-        image: "https://source.unsplash.com/user/erondu/1600x500",
-        category: "category 5",
-        price: 60,
-        description: "description 5",
-        
-    },
-    {
-        id: "6",
-        name: "name 6",
-        image: "https://source.unsplash.com/user/erondu/1600x400",
-        category: "category 6",
-        price: 35,
-        description: "description 6",
-        
-    },
-    {
-        id: "7",
-        name: "name 7",
-        image: "https://source.unsplash.com/user/erondu/1600x300",
-        category: "category 7",
-        price: 54,
-        description: "description 7",
-        
-    },
-    {
-        id: "8",
-        name: "name 8",
-        image: "https://source.unsplash.com/user/erondu/1600x200",
-        category: "category 8",
-        price: 26,
-        description: "description 8",
-        
-    },
-    {
-        id: "9",
-        name: "name 9",
-        image: "https://source.unsplash.com/user/erondu/1600x100",
-        category: "category 9",
-        price: 52,
-        description: "description 9",
-        
-    },
-    {
-        id: "10",
-        name: "name 10",
-        image: "https://source.unsplash.com/user/erondu/1600x1200",
-        category: "category 10",
-        price: 46,
-        description: "description 10",
-        
+        id: 3,
+        name: 'Cheese Cake',
+        image: 'assets/images/3cake.jpg',
+        category: 'dessert',
+        label: '',
+        price: '170',
+        featured: false,
+        description: 'A delectable, semi-sweet New York Style Cheese Cake, with cracker crust and spiced with Indian cardamoms',
     }
 ]
 

@@ -4,6 +4,7 @@ const LoadComments = (props) => {
     
     return (
         props.comments.map(comment => {
+        //console.log(props);
             return (
                 <div key={comment.id}>
                     <h5>{comment.author}</h5>
