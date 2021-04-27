@@ -1,7 +1,10 @@
 import React from 'react'
 import dateFormat from "dateformat"
+import Loading from './Loading'
 const LoadComments = (props) => {
-    
+    if(props.commentsIsLoading){
+        return <Loading />
+    }
     return (
         props.comments.map(comment => {
         //console.log(props);
