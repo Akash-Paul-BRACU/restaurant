@@ -69,3 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # restaurant
+
+
+
+
+#open src folder
+#run json folder into a new window of vs code
+#use the below comment on your new opened vs code terminal for getting data  
+#write the comment on terminal and run 
+
+
+json-server db.json wheel -p 3001
+
+#open the react project to another window of vs code and run the project
+#you will get all data from db.json file
